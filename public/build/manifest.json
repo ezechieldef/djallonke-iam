@@ -1,0 +1,32 @@
+{
+  "_select2-BGpGnte-.js": {
+    "file": "assets/select2-BGpGnte-.js",
+    "name": "select2",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/select2/dist/css/select2.min.css": {
+    "file": "assets/select2-8yPzm9Re.css",
+    "src": "node_modules/select2/dist/css/select2.min.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BjFM-6-G.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BCuSQjes.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "_select2-BGpGnte-.js"
+    ]
+  }
+}
