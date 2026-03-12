@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,6 +26,7 @@ class DatabaseSeeder extends Seeder
         ], [
             'name' => 'Admin',
             'password' => bcrypt('p@ssw0rd'),
+            "uid" => Str::uuid()->toString(),
         ]);
 
         $admin->assignRole('Super-admin');
