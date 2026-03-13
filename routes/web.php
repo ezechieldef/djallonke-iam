@@ -5,7 +5,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::redirect('/', '/dashboard')->name('home');
+Route::redirect('/', '/profile')->name('home');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
