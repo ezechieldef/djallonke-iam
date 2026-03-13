@@ -20,6 +20,7 @@ return Application::configure(basePath: dirname(__DIR__))
 
             "client.credentials" => \Laravel\Passport\Http\Middleware\CheckToken::class,
         ]);
+        $middleware->trustProxies(at: '*');
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //
